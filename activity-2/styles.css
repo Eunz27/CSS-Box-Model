@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.div-one {
+  margin: 32px 12px 12px 12px ;
+  border: 3px solid rgb(38, 0, 250);
+  padding: 32px;
+  background-color: rgb(241, 116, 116);
+}
+
+.div-two {
+  margin: 32px 12px 12px 12px ;
+  border: 3px solid rgb(143, 3, 43);
+  background-color: rgb(176, 224, 243);
+  font-weight: bold;
+}
+
+.div-three {
+  margin: 32px 12px 12px 12px ;
+  border: 3px solid rgb(255, 0, 0);
+  background-color: rgb(250, 210, 161);
+  padding: 32px;
+  font-weight: bold;
+  text-align: left;
+  width: 50%;
+}
+
+.div-container {
+  display: flex;
+  justify-content: end;
+}
+
+.my-button {
+  color: #fff;
+  font-weight: bold;
+  padding: 20px;
+  border: 2px solid #5d6063;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #5995da;
+  width: 100px;
+  text-align: center;
+  margin: 20px auto;
+  display: block
+}
+
+.my-button {
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.my-button:hover {
+  background-color: #fff;
+  color: #4287f5;
+  border: 2px solid #4287f5;
+}
