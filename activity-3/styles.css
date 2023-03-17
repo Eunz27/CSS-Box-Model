@@ -69,6 +69,7 @@ body {
   background-color: #5995da;
   width: 100px;
   text-align: center;
+  text-transform: uppercase;
   margin: 20px auto;
   display: block
 }
